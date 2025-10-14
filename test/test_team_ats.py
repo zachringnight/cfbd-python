@@ -57,8 +57,8 @@ class TestTeamATS(unittest.TestCase):
                 ats_wins = 56,
                 ats_losses = 56,
                 ats_pushes = 56,
-                avg_cover_margin = 1.337,
-        )
+                avg_cover_margin = 1.337
+            )
         """
 
     def testTeamATS(self):

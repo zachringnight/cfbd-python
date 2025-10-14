@@ -79,8 +79,8 @@ class TestRecruit(unittest.TestCase):
                 hometown_info = cfbd.models.recruit_hometown_info.Recruit_hometownInfo(
                     fips_code = '', 
                     longitude = 1.337, 
-                    latitude = 1.337, ),
-        )
+                    latitude = 1.337, )
+            )
         """
 
     def testRecruit(self):

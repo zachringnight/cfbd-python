@@ -53,8 +53,8 @@ class TestAggregatedTeamRecruiting(unittest.TestCase):
                 average_rating = 1.337,
                 total_rating = 1.337,
                 commits = 56,
-                average_stars = 1.337,
-        )
+                average_stars = 1.337
+            )
         """
 
     def testAggregatedTeamRecruiting(self):

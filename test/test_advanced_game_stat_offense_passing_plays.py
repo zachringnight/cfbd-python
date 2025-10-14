@@ -47,8 +47,8 @@ class TestAdvancedGameStatOffensePassingPlays(unittest.TestCase):
                 explosiveness = 1.337,
                 success_rate = 1.337,
                 total_ppa = 1.337,
-                ppa = 1.337,
-        )
+                ppa = 1.337
+            )
         """
 
     def testAdvancedGameStatOffensePassingPlays(self):

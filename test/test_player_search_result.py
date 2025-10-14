@@ -63,8 +63,8 @@ class TestPlayerSearchResult(unittest.TestCase):
                 position = '',
                 hometown = '',
                 team_color = '',
-                team_color_secondary = '',
-        )
+                team_color_secondary = ''
+            )
         """
 
     def testPlayerSearchResult(self):

@@ -45,8 +45,8 @@ class TestRecruitHometownInfo(unittest.TestCase):
             return RecruitHometownInfo(
                 fips_code = '',
                 longitude = 1.337,
-                latitude = 1.337,
-        )
+                latitude = 1.337
+            )
         """
 
     def testRecruitHometownInfo(self):

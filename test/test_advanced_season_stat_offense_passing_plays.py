@@ -49,8 +49,8 @@ class TestAdvancedSeasonStatOffensePassingPlays(unittest.TestCase):
                 success_rate = 1.337,
                 total_ppa = 1.337,
                 ppa = 1.337,
-                rate = 1.337,
-        )
+                rate = 1.337
+            )
         """
 
     def testAdvancedSeasonStatOffensePassingPlays(self):

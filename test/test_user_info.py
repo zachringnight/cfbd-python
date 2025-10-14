@@ -43,8 +43,8 @@ class TestUserInfo(unittest.TestCase):
         else:
             return UserInfo(
                 patron_level = 1.337,
-                remaining_calls = 1.337,
-        )
+                remaining_calls = 1.337
+            )
         """
 
     def testUserInfo(self):

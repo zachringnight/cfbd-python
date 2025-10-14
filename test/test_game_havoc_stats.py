@@ -87,8 +87,8 @@ class TestGameHavocStats(unittest.TestCase):
                     db_havoc_events = 1.337, 
                     front_seven_havoc_events = 1.337, 
                     total_havoc_events = 1.337, 
-                    total_plays = 1.337, ),
-        )
+                    total_plays = 1.337, )
+            )
         """
 
     def testGameHavocStats(self):

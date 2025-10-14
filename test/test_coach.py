@@ -75,8 +75,8 @@ class TestCoach(unittest.TestCase):
                         sp_overall = 1.337, 
                         sp_offense = 1.337, 
                         sp_defense = 1.337, )
-                    ],
-        )
+                    ]
+            )
         """
 
     def testCoach(self):

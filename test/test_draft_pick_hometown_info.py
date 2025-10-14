@@ -51,8 +51,8 @@ class TestDraftPickHometownInfo(unittest.TestCase):
                 latitude = '',
                 country = '',
                 state = '',
-                city = '',
-        )
+                city = ''
+            )
         """
 
     def testDraftPickHometownInfo(self):

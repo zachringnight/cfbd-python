@@ -81,8 +81,8 @@ class TestPlayStat(unittest.TestCase):
                 athlete_id = '',
                 athlete_name = '',
                 stat_type = '',
-                stat = 1.337,
-        )
+                stat = 1.337
+            )
         """
 
     def testPlayStat(self):

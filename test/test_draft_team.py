@@ -47,8 +47,8 @@ class TestDraftTeam(unittest.TestCase):
                 location = '',
                 nickname = '',
                 display_name = '',
-                logo = '',
-        )
+                logo = ''
+            )
         """
 
     def testDraftTeam(self):

@@ -59,8 +59,8 @@ class TestPoll(unittest.TestCase):
                         conference = '', 
                         first_place_votes = 56, 
                         points = 56, )
-                    ],
-        )
+                    ]
+            )
         """
 
     def testPoll(self):

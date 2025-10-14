@@ -119,8 +119,8 @@ class TestLiveGameDrive(unittest.TestCase):
                         rush_pass = 'rush', 
                         down_type = 'passing', 
                         play_text = '', )
-                    ],
-        )
+                    ]
+            )
         """
 
     def testLiveGameDrive(self):

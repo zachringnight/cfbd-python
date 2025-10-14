@@ -75,8 +75,8 @@ class TestRosterPlayer(unittest.TestCase):
                 home_county_fips = '',
                 recruit_ids = [
                     ''
-                    ],
-        )
+                    ]
+            )
         """
 
     def testRosterPlayer(self):

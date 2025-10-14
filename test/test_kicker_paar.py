@@ -53,8 +53,8 @@ class TestKickerPAAR(unittest.TestCase):
                 team = '',
                 conference = '',
                 paar = 1.337,
-                attempts = 56,
-        )
+                attempts = 56
+            )
         """
 
     def testKickerPAAR(self):

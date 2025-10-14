@@ -43,8 +43,8 @@ class TestGameTeamStatsTeamStat(unittest.TestCase):
         else:
             return GameTeamStatsTeamStat(
                 category = '',
-                stat = '',
-        )
+                stat = ''
+            )
         """
 
     def testGameTeamStatsTeamStat(self):

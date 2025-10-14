@@ -55,8 +55,8 @@ class TestPlayerWeightedEPA(unittest.TestCase):
                 team = '',
                 conference = '',
                 wepa = 1.337,
-                plays = 56,
-        )
+                plays = 56
+            )
         """
 
     def testPlayerWeightedEPA(self):

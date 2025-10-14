@@ -45,8 +45,8 @@ class TestAdjustedMetricsSuccessRate(unittest.TestCase):
             return AdjustedMetricsSuccessRate(
                 passing_downs = 1.337,
                 standard_downs = 1.337,
-                total = 1.337,
-        )
+                total = 1.337
+            )
         """
 
     def testAdjustedMetricsSuccessRate(self):

@@ -101,8 +101,8 @@ class TestTeam(unittest.TestCase):
                     capacity = 56, 
                     construction_year = 56, 
                     grass = True, 
-                    dome = True, ),
-        )
+                    dome = True, )
+            )
         """
 
     def testTeam(self):

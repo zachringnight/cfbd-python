@@ -83,8 +83,8 @@ class TestGamePlayerStats(unittest.TestCase):
                                             ], )
                                     ], )
                             ], )
-                    ],
-        )
+                    ]
+            )
         """
 
     def testGamePlayerStats(self):

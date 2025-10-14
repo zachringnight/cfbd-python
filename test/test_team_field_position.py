@@ -45,8 +45,8 @@ class TestTeamFieldPosition(unittest.TestCase):
             return TeamFieldPosition(
                 team = '',
                 average_start = 1.337,
-                average_starting_predicted_points = 1.337,
-        )
+                average_starting_predicted_points = 1.337
+            )
         """
 
     def testTeamFieldPosition(self):

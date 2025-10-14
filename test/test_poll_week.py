@@ -71,8 +71,8 @@ class TestPollWeek(unittest.TestCase):
                                 first_place_votes = 56, 
                                 points = 56, )
                             ], )
-                    ],
-        )
+                    ]
+            )
         """
 
     def testPollWeek(self):

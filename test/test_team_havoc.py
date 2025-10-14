@@ -47,8 +47,8 @@ class TestTeamHavoc(unittest.TestCase):
                 team = '',
                 total = 1.337,
                 front_seven = 1.337,
-                db = 1.337,
-        )
+                db = 1.337
+            )
         """
 
     def testTeamHavoc(self):

@@ -49,8 +49,8 @@ class TestTeamStat(unittest.TestCase):
                 team = '',
                 conference = '',
                 stat_name = '',
-                stat_value = None,
-        )
+                stat_value = None
+            )
         """
 
     def testTeamStat(self):

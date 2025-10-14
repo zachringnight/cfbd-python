@@ -48,8 +48,8 @@ class TestPlayerSeasonPredictedPointsAddedAveragePPA(unittest.TestCase):
             )
         else:
             return PlayerSeasonPredictedPointsAddedAveragePPA(
-                all = 1.337,
-        )
+                all = 1.337
+            )
         """
 
     def testPlayerSeasonPredictedPointsAddedAveragePPA(self):

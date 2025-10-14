@@ -47,8 +47,8 @@ class TestTeamElo(unittest.TestCase):
                 year = 56,
                 team = '',
                 conference = '',
-                elo = 56,
-        )
+                elo = 56
+            )
         """
 
     def testTeamElo(self):

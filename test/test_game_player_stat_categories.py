@@ -61,8 +61,8 @@ class TestGamePlayerStatCategories(unittest.TestCase):
                                 name = '', 
                                 stat = '', )
                             ], )
-                    ],
-        )
+                    ]
+            )
         """
 
     def testGamePlayerStatCategories(self):

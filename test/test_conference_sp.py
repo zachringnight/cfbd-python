@@ -97,8 +97,8 @@ class TestConferenceSP(unittest.TestCase):
                     success = 1.337, 
                     rating = 1.337, ),
                 special_teams = cfbd.models.team_sp_special_teams.TeamSP_specialTeams(
-                    rating = 1.337, ),
-        )
+                    rating = 1.337, )
+            )
         """
 
     def testConferenceSP(self):

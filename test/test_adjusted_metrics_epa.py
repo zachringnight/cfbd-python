@@ -45,8 +45,8 @@ class TestAdjustedMetricsEpa(unittest.TestCase):
             return AdjustedMetricsEpa(
                 rushing = 1.337,
                 passing = 1.337,
-                total = 1.337,
-        )
+                total = 1.337
+            )
         """
 
     def testAdjustedMetricsEpa(self):

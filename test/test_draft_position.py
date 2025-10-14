@@ -43,8 +43,8 @@ class TestDraftPosition(unittest.TestCase):
         else:
             return DraftPosition(
                 name = '',
-                abbreviation = '',
-        )
+                abbreviation = ''
+            )
         """
 
     def testDraftPosition(self):

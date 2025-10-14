@@ -79,8 +79,8 @@ class TestLiveGamePlay(unittest.TestCase):
                 success = True,
                 rush_pass = 'rush',
                 down_type = 'passing',
-                play_text = '',
-        )
+                play_text = ''
+            )
         """
 
     def testLiveGamePlay(self):

@@ -57,8 +57,8 @@ class TestTeamRushingStats(unittest.TestCase):
                 second_level_yards = 1.337,
                 second_level_yards_average = 1.337,
                 open_field_yards = 1.337,
-                open_field_yards_average = 1.337,
-        )
+                open_field_yards_average = 1.337
+            )
         """
 
     def testTeamRushingStats(self):

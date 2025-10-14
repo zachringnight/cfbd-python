@@ -47,8 +47,8 @@ class TestAdvancedSeasonStatOffensePassingDowns(unittest.TestCase):
                 explosiveness = 1.337,
                 success_rate = 1.337,
                 ppa = 1.337,
-                rate = 1.337,
-        )
+                rate = 1.337
+            )
         """
 
     def testAdvancedSeasonStatOffensePassingDowns(self):

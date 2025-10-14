@@ -47,8 +47,8 @@ class TestScoreboardGameWeather(unittest.TestCase):
                 wind_direction = 1.337,
                 wind_speed = 1.337,
                 description = '',
-                temperature = 1.337,
-        )
+                temperature = 1.337
+            )
         """
 
     def testScoreboardGameWeather(self):

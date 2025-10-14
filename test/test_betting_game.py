@@ -91,8 +91,8 @@ class TestBettingGame(unittest.TestCase):
                         over_under_open = 1.337, 
                         home_moneyline = 1.337, 
                         away_moneyline = 1.337, )
-                    ],
-        )
+                    ]
+            )
         """
 
     def testBettingGame(self):

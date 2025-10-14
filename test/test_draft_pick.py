@@ -89,8 +89,8 @@ class TestDraftPick(unittest.TestCase):
                     latitude = '', 
                     country = '', 
                     state = '', 
-                    city = '', ),
-        )
+                    city = '', )
+            )
         """
 
     def testDraftPick(self):

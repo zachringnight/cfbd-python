@@ -43,8 +43,8 @@ class TestPlayStatClock(unittest.TestCase):
         else:
             return PlayStatClock(
                 seconds = 1.337,
-                minutes = 1.337,
-        )
+                minutes = 1.337
+            )
         """
 
     def testPlayStatClock(self):

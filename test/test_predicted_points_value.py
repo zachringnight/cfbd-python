@@ -43,8 +43,8 @@ class TestPredictedPointsValue(unittest.TestCase):
         else:
             return PredictedPointsValue(
                 yard_line = 56,
-                predicted_points = 1.337,
-        )
+                predicted_points = 1.337
+            )
         """
 
     def testPredictedPointsValue(self):

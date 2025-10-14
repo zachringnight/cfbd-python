@@ -123,8 +123,8 @@ class TestTeamRecords(unittest.TestCase):
                     games = 56, 
                     wins = 56, 
                     losses = 56, 
-                    ties = 56, ),
-        )
+                    ties = 56, )
+            )
         """
 
     def testTeamRecords(self):

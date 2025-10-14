@@ -47,8 +47,8 @@ class TestTeamRecruitingRanking(unittest.TestCase):
                 year = 56,
                 rank = 56,
                 team = '',
-                points = 1.337,
-        )
+                points = 1.337
+            )
         """
 
     def testTeamRecruitingRanking(self):

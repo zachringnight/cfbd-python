@@ -45,8 +45,8 @@ class TestAdvancedSeasonStatOffenseHavoc(unittest.TestCase):
             return AdvancedSeasonStatOffenseHavoc(
                 db = 1.337,
                 front_seven = 1.337,
-                total = 1.337,
-        )
+                total = 1.337
+            )
         """
 
     def testAdvancedSeasonStatOffenseHavoc(self):

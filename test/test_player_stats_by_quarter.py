@@ -53,8 +53,8 @@ class TestPlayerStatsByQuarter(unittest.TestCase):
                 quarter3 = 1.337,
                 quarter4 = 1.337,
                 rushing = 1.337,
-                passing = 1.337,
-        )
+                passing = 1.337
+            )
         """
 
     def testPlayerStatsByQuarter(self):

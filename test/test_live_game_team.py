@@ -96,8 +96,8 @@ class TestLiveGameTeam(unittest.TestCase):
                 success_rate = 1.337,
                 standard_down_success_rate = 1.337,
                 passing_down_success_rate = 1.337,
-                explosiveness = 1.337,
-        )
+                explosiveness = 1.337
+            )
         """
 
     def testLiveGameTeam(self):

@@ -71,8 +71,8 @@ class TestPlayWinProbability(unittest.TestCase):
                 down = 56,
                 distance = 56,
                 home_win_probability = 1.337,
-                play_number = 56,
-        )
+                play_number = 56
+            )
         """
 
     def testPlayWinProbability(self):

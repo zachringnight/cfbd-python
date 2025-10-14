@@ -45,8 +45,8 @@ class TestAdjustedTeamMetricsSuccessRate(unittest.TestCase):
             return AdjustedTeamMetricsSuccessRate(
                 passing_downs = 1.337,
                 standard_downs = 1.337,
-                total = 1.337,
-        )
+                total = 1.337
+            )
         """
 
     def testAdjustedTeamMetricsSuccessRate(self):

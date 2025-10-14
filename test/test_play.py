@@ -97,8 +97,8 @@ class TestPlay(unittest.TestCase):
                 play_type = '',
                 play_text = '',
                 ppa = 1.337,
-                wallclock = '',
-        )
+                wallclock = ''
+            )
         """
 
     def testPlay(self):

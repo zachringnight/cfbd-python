@@ -51,8 +51,8 @@ class TestTeamFPIResumeRanks(unittest.TestCase):
                 strength_of_schedule = 56,
                 average_win_probability = 56,
                 fpi = 56,
-                strength_of_record = 56,
-        )
+                strength_of_record = 56
+            )
         """
 
     def testTeamFPIResumeRanks(self):

@@ -105,8 +105,8 @@ class TestTeamSP(unittest.TestCase):
                     rating = 1.337, 
                     ranking = 56, ),
                 special_teams = cfbd.models.team_sp_special_teams.TeamSP_specialTeams(
-                    rating = 1.337, ),
-        )
+                    rating = 1.337, )
+            )
         """
 
     def testTeamSP(self):

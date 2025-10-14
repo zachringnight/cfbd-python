@@ -229,8 +229,8 @@ class TestAdvancedBoxScoreTeams(unittest.TestCase):
                             quarter3 = 1.337, 
                             quarter4 = 1.337, ), 
                         rushing = , )
-                    ],
-        )
+                    ]
+            )
         """
 
     def testAdvancedBoxScoreTeams(self):

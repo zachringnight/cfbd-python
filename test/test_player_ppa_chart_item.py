@@ -43,8 +43,8 @@ class TestPlayerPPAChartItem(unittest.TestCase):
         else:
             return PlayerPPAChartItem(
                 play_number = 56,
-                avg_ppa = 1.337,
-        )
+                avg_ppa = 1.337
+            )
         """
 
     def testPlayerPPAChartItem(self):

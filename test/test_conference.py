@@ -49,8 +49,8 @@ class TestConference(unittest.TestCase):
                 name = '',
                 short_name = '',
                 abbreviation = '',
-                classification = 'fbs',
-        )
+                classification = 'fbs'
+            )
         """
 
     def testConference(self):

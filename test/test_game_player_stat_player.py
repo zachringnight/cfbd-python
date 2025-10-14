@@ -45,8 +45,8 @@ class TestGamePlayerStatPlayer(unittest.TestCase):
             return GamePlayerStatPlayer(
                 id = '',
                 name = '',
-                stat = '',
-        )
+                stat = ''
+            )
         """
 
     def testGamePlayerStatPlayer(self):

@@ -61,8 +61,8 @@ class TestConferenceSPDefense(unittest.TestCase):
                 rushing = 1.337,
                 explosiveness = 1.337,
                 success = 1.337,
-                rating = 1.337,
-        )
+                rating = 1.337
+            )
         """
 
     def testConferenceSPDefense(self):

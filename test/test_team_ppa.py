@@ -79,8 +79,8 @@ class TestTeamPPA(unittest.TestCase):
                     quarter1 = 1.337, 
                     quarter2 = 1.337, 
                     quarter3 = 1.337, 
-                    quarter4 = 1.337, ),
-        )
+                    quarter4 = 1.337, )
+            )
         """
 
     def testTeamPPA(self):

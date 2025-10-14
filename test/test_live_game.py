@@ -205,8 +205,8 @@ class TestLiveGame(unittest.TestCase):
                                 down_type = 'passing', 
                                 play_text = '', )
                             ], )
-                    ],
-        )
+                    ]
+            )
         """
 
     def testLiveGame(self):

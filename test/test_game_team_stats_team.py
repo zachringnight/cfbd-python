@@ -59,8 +59,8 @@ class TestGameTeamStatsTeam(unittest.TestCase):
                     cfbd.models.game_team_stats_team_stat.GameTeamStatsTeamStat(
                         category = '', 
                         stat = '', )
-                    ],
-        )
+                    ]
+            )
         """
 
     def testGameTeamStatsTeam(self):

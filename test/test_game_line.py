@@ -55,8 +55,8 @@ class TestGameLine(unittest.TestCase):
                 over_under = 1.337,
                 over_under_open = 1.337,
                 home_moneyline = 1.337,
-                away_moneyline = 1.337,
-        )
+                away_moneyline = 1.337
+            )
         """
 
     def testGameLine(self):

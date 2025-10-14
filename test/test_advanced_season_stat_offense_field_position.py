@@ -43,8 +43,8 @@ class TestAdvancedSeasonStatOffenseFieldPosition(unittest.TestCase):
         else:
             return AdvancedSeasonStatOffenseFieldPosition(
                 average_predicted_points = 1.337,
-                average_start = 1.337,
-        )
+                average_start = 1.337
+            )
         """
 
     def testAdvancedSeasonStatOffenseFieldPosition(self):

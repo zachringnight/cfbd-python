@@ -59,8 +59,8 @@ class TestTeamSPOffense(unittest.TestCase):
                 explosiveness = 1.337,
                 success = 1.337,
                 rating = 1.337,
-                ranking = 56,
-        )
+                ranking = 56
+            )
         """
 
     def testTeamSPOffense(self):

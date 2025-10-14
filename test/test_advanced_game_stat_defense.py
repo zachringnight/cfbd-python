@@ -103,8 +103,8 @@ class TestAdvancedGameStatDefense(unittest.TestCase):
                 total_ppa = 1.337,
                 ppa = 1.337,
                 drives = 56,
-                plays = 56,
-        )
+                plays = 56
+            )
         """
 
     def testAdvancedGameStatDefense(self):

@@ -83,8 +83,8 @@ class TestGameWeather(unittest.TestCase):
                 wind_speed = 1.337,
                 pressure = 1.337,
                 weather_condition_code = 1.337,
-                weather_condition = '',
-        )
+                weather_condition = ''
+            )
         """
 
     def testGameWeather(self):

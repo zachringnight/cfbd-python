@@ -65,8 +65,8 @@ class TestVenue(unittest.TestCase):
                 longitude = 1.337,
                 elevation = '',
                 capacity = 56,
-                construction_year = 56,
-        )
+                construction_year = 56
+            )
         """
 
     def testVenue(self):

@@ -59,8 +59,8 @@ class TestPlayerGameUsage(unittest.TestCase):
                 passing = 1.337,
                 player = '',
                 team = '',
-                position = '',
-        )
+                position = ''
+            )
         """
 
     def testPlayerGameUsage(self):

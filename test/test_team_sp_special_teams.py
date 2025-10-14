@@ -41,8 +41,8 @@ class TestTeamSPSpecialTeams(unittest.TestCase):
             )
         else:
             return TeamSPSpecialTeams(
-                rating = 1.337,
-        )
+                rating = 1.337
+            )
         """
 
     def testTeamSPSpecialTeams(self):

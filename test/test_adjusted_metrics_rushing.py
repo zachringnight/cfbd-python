@@ -45,8 +45,8 @@ class TestAdjustedMetricsRushing(unittest.TestCase):
             return AdjustedMetricsRushing(
                 open_field_yards = 1.337,
                 second_level_yards = 1.337,
-                line_yards = 1.337,
-        )
+                line_yards = 1.337
+            )
         """
 
     def testAdjustedMetricsRushing(self):

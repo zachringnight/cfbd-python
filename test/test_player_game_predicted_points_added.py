@@ -63,8 +63,8 @@ class TestPlayerGamePredictedPointsAdded(unittest.TestCase):
                 average_ppa = cfbd.models.player_game_predicted_points_added_average_ppa.PlayerGamePredictedPointsAdded_averagePPA(
                     rush = 1.337, 
                     pass = 1.337, 
-                    all = 1.337, ),
-        )
+                    all = 1.337, )
+            )
         """
 
     def testPlayerGamePredictedPointsAdded(self):

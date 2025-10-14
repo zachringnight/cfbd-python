@@ -61,8 +61,8 @@ class TestMatchupGame(unittest.TestCase):
                 home_score = 56,
                 away_team = '',
                 away_score = 56,
-                winner = '',
-        )
+                winner = ''
+            )
         """
 
     def testMatchupGame(self):

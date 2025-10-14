@@ -63,8 +63,8 @@ class TestGameMedia(unittest.TestCase):
                 away_team = '',
                 away_conference = '',
                 media_type = 'tv',
-                outlet = '',
-        )
+                outlet = ''
+            )
         """
 
     def testGameMedia(self):

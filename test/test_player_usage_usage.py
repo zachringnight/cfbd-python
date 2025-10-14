@@ -55,8 +55,8 @@ class TestPlayerUsageUsage(unittest.TestCase):
                 first_down = 1.337,
                 rush = 1.337,
                 var_pass = 1.337,
-                overall = 1.337,
-        )
+                overall = 1.337
+            )
         """
 
     def testPlayerUsageUsage(self):

@@ -53,8 +53,8 @@ class TestGamePlayerStatTypes(unittest.TestCase):
                         id = '', 
                         name = '', 
                         stat = '', )
-                    ],
-        )
+                    ]
+            )
         """
 
     def testGamePlayerStatTypes(self):

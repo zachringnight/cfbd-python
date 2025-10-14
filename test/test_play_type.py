@@ -45,8 +45,8 @@ class TestPlayType(unittest.TestCase):
             return PlayType(
                 id = 56,
                 text = '',
-                abbreviation = '',
-        )
+                abbreviation = ''
+            )
         """
 
     def testPlayType(self):

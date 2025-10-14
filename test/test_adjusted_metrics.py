@@ -99,8 +99,8 @@ class TestAdjustedMetrics(unittest.TestCase):
                     second_level_yards = 1.337, 
                     line_yards = 1.337, ),
                 explosiveness = 1.337,
-                explosiveness_allowed = 1.337,
-        )
+                explosiveness_allowed = 1.337
+            )
         """
 
     def testAdjustedMetrics(self):

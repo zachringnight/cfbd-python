@@ -57,8 +57,8 @@ class TestScoreboardGameHomeTeam(unittest.TestCase):
                 classification = 'fbs',
                 conference = '',
                 name = '',
-                id = 56,
-        )
+                id = 56
+            )
         """
 
     def testScoreboardGameHomeTeam(self):

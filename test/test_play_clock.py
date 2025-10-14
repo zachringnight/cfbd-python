@@ -43,8 +43,8 @@ class TestPlayClock(unittest.TestCase):
         else:
             return PlayClock(
                 seconds = 56,
-                minutes = 56,
-        )
+                minutes = 56
+            )
         """
 
     def testPlayClock(self):

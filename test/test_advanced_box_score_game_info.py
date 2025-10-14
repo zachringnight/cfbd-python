@@ -55,8 +55,8 @@ class TestAdvancedBoxScoreGameInfo(unittest.TestCase):
                 away_team = '',
                 home_win_prob = 1.337,
                 home_points = 56,
-                home_team = '',
-        )
+                home_team = ''
+            )
         """
 
     def testAdvancedBoxScoreGameInfo(self):

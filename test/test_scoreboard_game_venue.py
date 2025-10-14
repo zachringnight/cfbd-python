@@ -45,8 +45,8 @@ class TestScoreboardGameVenue(unittest.TestCase):
             return ScoreboardGameVenue(
                 state = '',
                 city = '',
-                name = '',
-        )
+                name = ''
+            )
         """
 
     def testScoreboardGameVenue(self):

@@ -57,8 +57,8 @@ class TestPlayerStat(unittest.TestCase):
                 conference = '',
                 category = '',
                 stat_type = '',
-                stat = '',
-        )
+                stat = ''
+            )
         """
 
     def testPlayerStat(self):

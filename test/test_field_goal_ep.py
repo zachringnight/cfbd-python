@@ -45,8 +45,8 @@ class TestFieldGoalEP(unittest.TestCase):
             return FieldGoalEP(
                 yards_to_goal = 56,
                 distance = 56,
-                expected_points = 1.337,
-        )
+                expected_points = 1.337
+            )
         """
 
     def testFieldGoalEP(self):

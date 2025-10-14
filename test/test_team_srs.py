@@ -51,8 +51,8 @@ class TestTeamSRS(unittest.TestCase):
                 conference = '',
                 division = '',
                 rating = 1.337,
-                ranking = 56,
-        )
+                ranking = 56
+            )
         """
 
     def testTeamSRS(self):

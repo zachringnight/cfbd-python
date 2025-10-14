@@ -47,8 +47,8 @@ class TestTeamFPIEfficiencies(unittest.TestCase):
                 special_teams = 1.337,
                 defense = 1.337,
                 offense = 1.337,
-                overall = 1.337,
-        )
+                overall = 1.337
+            )
         """
 
     def testTeamFPIEfficiencies(self):

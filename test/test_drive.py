@@ -101,8 +101,8 @@ class TestDrive(unittest.TestCase):
                 start_offense_score = 56,
                 start_defense_score = 56,
                 end_offense_score = 56,
-                end_defense_score = 56,
-        )
+                end_defense_score = 56
+            )
         """
 
     def testDrive(self):

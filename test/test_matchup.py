@@ -79,8 +79,8 @@ class TestMatchup(unittest.TestCase):
                         away_team = '', 
                         away_score = 56, 
                         winner = '', )
-                    ],
-        )
+                    ]
+            )
         """
 
     def testMatchup(self):

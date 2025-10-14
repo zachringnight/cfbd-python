@@ -67,8 +67,8 @@ class TestGameTeamStats(unittest.TestCase):
                                 category = '', 
                                 stat = '', )
                             ], )
-                    ],
-        )
+                    ]
+            )
         """
 
     def testGameTeamStats(self):

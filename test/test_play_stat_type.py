@@ -43,8 +43,8 @@ class TestPlayStatType(unittest.TestCase):
         else:
             return PlayStatType(
                 id = 56,
-                name = '',
-        )
+                name = ''
+            )
         """
 
     def testPlayStatType(self):

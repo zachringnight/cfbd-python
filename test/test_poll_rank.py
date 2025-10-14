@@ -51,8 +51,8 @@ class TestPollRank(unittest.TestCase):
                 school = '',
                 conference = '',
                 first_place_votes = 56,
-                points = 56,
-        )
+                points = 56
+            )
         """
 
     def testPollRank(self):

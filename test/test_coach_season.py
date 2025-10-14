@@ -63,8 +63,8 @@ class TestCoachSeason(unittest.TestCase):
                 srs = 1.337,
                 sp_overall = 1.337,
                 sp_offense = 1.337,
-                sp_defense = 1.337,
-        )
+                sp_defense = 1.337
+            )
         """
 
     def testCoachSeason(self):

@@ -59,8 +59,8 @@ class TestPlayerTransfer(unittest.TestCase):
                 transfer_date = datetime.datetime.strptime('2013-10-20 19:20:30.00', '%Y-%m-%d %H:%M:%S.%f'),
                 rating = 1.337,
                 stars = 56,
-                eligibility = 'Withdrawn',
-        )
+                eligibility = 'Withdrawn'
+            )
         """
 
     def testPlayerTransfer(self):

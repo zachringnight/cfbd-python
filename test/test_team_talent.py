@@ -45,8 +45,8 @@ class TestTeamTalent(unittest.TestCase):
             return TeamTalent(
                 year = 56,
                 team = '',
-                talent = 1.337,
-        )
+                talent = 1.337
+            )
         """
 
     def testTeamTalent(self):

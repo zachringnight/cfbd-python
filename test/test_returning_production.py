@@ -69,8 +69,8 @@ class TestReturningProduction(unittest.TestCase):
                 usage = 1.337,
                 passing_usage = 1.337,
                 receiving_usage = 1.337,
-                rushing_usage = 1.337,
-        )
+                rushing_usage = 1.337
+            )
         """
 
     def testReturningProduction(self):

@@ -55,8 +55,8 @@ class TestPregameWinProbability(unittest.TestCase):
                 home_team = '',
                 away_team = '',
                 spread = 1.337,
-                home_win_probability = 1.337,
-        )
+                home_win_probability = 1.337
+            )
         """
 
     def testPregameWinProbability(self):

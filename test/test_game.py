@@ -113,8 +113,8 @@ class TestGame(unittest.TestCase):
                 away_postgame_elo = 56,
                 excitement_index = 1.337,
                 highlights = '',
-                notes = '',
-        )
+                notes = ''
+            )
         """
 
     def testGame(self):

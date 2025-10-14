@@ -109,8 +109,8 @@ class TestAdvancedBoxScorePlayers(unittest.TestCase):
                         player = '', 
                         team = '', 
                         position = '', )
-                    ],
-        )
+                    ]
+            )
         """
 
     def testAdvancedBoxScorePlayers(self):

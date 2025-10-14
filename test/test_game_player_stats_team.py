@@ -75,8 +75,8 @@ class TestGamePlayerStatsTeam(unittest.TestCase):
                                         stat = '', )
                                     ], )
                             ], )
-                    ],
-        )
+                    ]
+            )
         """
 
     def testGamePlayerStatsTeam(self):

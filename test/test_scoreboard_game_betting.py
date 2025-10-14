@@ -47,8 +47,8 @@ class TestScoreboardGameBetting(unittest.TestCase):
                 away_moneyline = 1.337,
                 home_moneyline = 1.337,
                 over_under = 1.337,
-                spread = 1.337,
-        )
+                spread = 1.337
+            )
         """
 
     def testScoreboardGameBetting(self):

@@ -47,8 +47,8 @@ class TestTeamScoringOpportunities(unittest.TestCase):
                 team = '',
                 opportunities = 56,
                 points = 56,
-                points_per_opportunity = 1.337,
-        )
+                points_per_opportunity = 1.337
+            )
         """
 
     def testTeamScoringOpportunities(self):

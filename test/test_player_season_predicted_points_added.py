@@ -87,8 +87,8 @@ class TestPlayerSeasonPredictedPointsAdded(unittest.TestCase):
                     first_down = 1.337, 
                     rush = 1.337, 
                     pass = 1.337, 
-                    all = 1.337, ),
-        )
+                    all = 1.337, )
+            )
         """
 
     def testPlayerSeasonPredictedPointsAdded(self):
