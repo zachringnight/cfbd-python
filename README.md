@@ -71,6 +71,11 @@ with cfbd.ApiClient(configuration) as api_client:
 
 ```
 
+### Examples
+
+See the `examples/` directory for more usage examples:
+- `examples/basic_usage.py` - Basic API usage demonstration
+
 ## Documentation for API Endpoints
 
 All URIs are relative to *https://api.collegefootballdata.com*
