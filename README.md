@@ -75,6 +75,32 @@ with cfbd.ApiClient(configuration) as api_client:
 
 See the `examples/` directory for more usage examples:
 - `examples/basic_usage.py` - Basic API usage demonstration
+- `examples/weekly_picks.py` - Weekly college football picks generator using multiple data sources
+
+#### Weekly Picks Generator
+
+The `weekly_picks.py` script provides a comprehensive tool for generating weekly college football game picks:
+
+```bash
+# Generate picks for a specific week
+python examples/weekly_picks.py --year 2023 --week 5
+
+# Filter by conference
+python examples/weekly_picks.py --year 2023 --week 5 --conference SEC
+
+# Show only high confidence picks
+python examples/weekly_picks.py --year 2023 --week 5 --min-confidence HIGH
+```
+
+The picks generator analyzes:
+- Betting lines and spreads from multiple providers
+- Team ratings (ELO, SP+, FPI, SRS)
+- Pregame win probabilities
+- Advanced team statistics and metrics
+
+Picks are presented with confidence levels (HIGH, MEDIUM, LOW) and detailed reasoning based on data analysis.
+
+For more details, see [examples/README.md](examples/README.md).
 
 ## Documentation for API Endpoints
 
