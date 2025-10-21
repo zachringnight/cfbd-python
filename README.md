@@ -71,10 +71,45 @@ with cfbd.ApiClient(configuration) as api_client:
 
 ```
 
+## Predictive analytics helpers
+
+Beyond the generated API client the package now ships with a small, dependency
+free analytics layer focused on building power ratings and betting models.  The
+`cfbd.analytics` module exposes an `EloPredictor` helper that can ingest the
+historical game feeds exposed by the API and convert them into forward looking
+win probabilities, projected spreads, and season expectation totals.
+
+```python
+from datetime import date
+
+from cfbd.analytics import EloPredictor, GameResult, ScheduledGame
+
+games = [
+    GameResult(season=2023, week=1, date=date(2023, 8, 26), home_team="Notre Dame", away_team="Navy", home_score=42, away_score=3),
+    GameResult(season=2023, week=2, date=date(2023, 9, 2), home_team="Alabama", away_team="Middle Tennessee", home_score=56, away_score=7),
+]
+
+predictor = EloPredictor(k_factor=25.0, regression_weight=0.25)
+predictor.fit(games)
+
+probability, spread = predictor.predict_matchup("Alabama", "Texas", location="home")
+print(probability, spread)
+
+expected_wins = predictor.expected_wins(
+    "Alabama",
+    [ScheduledGame(opponent="Texas", location="home"), ScheduledGame(opponent="Tennessee", location="away")],
+)
+print(expected_wins)
+```
+
+See `examples/elo_prediction.py` for a more complete walkthrough including how
+to blend the predictions with the API client's game endpoints.
+
 ### Examples
 
 See the `examples/` directory for more usage examples:
 - `examples/basic_usage.py` - Basic API usage demonstration
+- `examples/elo_prediction.py` - Elo based win probability modelling helper
 
 ## Documentation for API Endpoints
 
